@@ -1,7 +1,7 @@
 import boto3
 
 region = 'us-east-1'
-instances = ['i-0051489d73ab1eba8', 'i-0ebba0ff452024565']
+instances = ['i-06fa8e63218becebf', 'i-075545d2dbaf1d0e4']
 ec2 = boto3.client('ec2', region_name=region)
 
 #Used to Stop Instances
