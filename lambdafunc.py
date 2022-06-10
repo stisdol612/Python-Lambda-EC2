@@ -6,7 +6,7 @@ ec2 = boto3.client('ec2', region_name=region)
 
 #Used to Stop Instances
 def lambda_handler(event, context):
-    ec2.stopped_instances(InstanceIds=instances)
+    ec2.stop_instances(InstanceIds=instances)
     print('stopped your instances: ' + str(instances))
 
 #Used to Start instances
