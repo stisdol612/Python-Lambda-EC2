@@ -1,7 +1,7 @@
 import boto3
 
-region = 'us-east-1'
-instances = ['i-0c7b862d1b69a19dc']
+region = 'ENTER REGION'
+instances = ['ENTER INSTANCE ID']
 ec2 = boto3.client('ec2', region_name=region)
 
 #Used to Start instances m
